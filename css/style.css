@@ -404,5 +404,59 @@ ul li{
     margin: 0 auto;
     text-align: center;
 }
-
 /* right plan end */
+/* what people think about us start */
+#think{
+    padding: 100px 0;
+    background-color: #F8F8FF;
+}
+#think h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 130px;
+}
+#think .think_conent{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px #70707070;
+    padding: 56px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#think .think_conent img{
+    position: absolute;
+    top: -96px;
+}
+#think .think_conent .star{
+    color: #FF7628;
+    margin-bottom: 34px;
+}
+#think .think_conent p{
+    font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    color: #726E9E;
+    width: 644px;
+    text-align: center;
+    margin-bottom: 48px;
+    line-height: 40px;
+}
+#think .think_conent h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+#think .think_conent h3{
+    font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    color: #726E9E;
+}
+/* what people think about us end */

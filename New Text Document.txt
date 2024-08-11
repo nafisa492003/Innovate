@@ -1,0 +1,53 @@
+font-family: "Open Sans", sans-serif;
+ font-family: "Paprika", system-ui;
+
+ 
+ font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+ font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    color: #726E9E;
+    width: 558px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+
+
+     <button class="common_btn">
+                Contact Us
+            </button>
+
+
+
+
+ .do_btn{
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 20px 30px;
+    z-index: 1;
+}
+ .do_btn::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background-color: rgba(27, 191, 0,20%);
+    width: 30%;
+    text-align: center;
+    transition: all linear 0.5s;
+    z-index: -1;
+}
+ .do_btn:hover:after{
+    width: 100%;
+}
+ .do_btn a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #141135;
+}

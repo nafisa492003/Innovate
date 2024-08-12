@@ -409,6 +409,7 @@ ul li{
 #think{
     padding: 100px 0;
     background-color: #F8F8FF;
+    position: relative;
 }
 #think h1{
     font-family: "Open Sans", sans-serif;
@@ -458,5 +459,30 @@ ul li{
     font-size: 18px;
     font-weight: 400;
     color: #726E9E;
+}
+#think .arrows{
+    width: 1408px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50% ,-50%);
+}
+#think .arrows button{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #cbeccc;
+    color: #ffffff;
+    transition: all linear 0.5s;
+}
+#think .arrows button:hover{
+    background-color: #1BBF00;
 }
 /* what people think about us end */
